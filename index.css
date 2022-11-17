@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+*{
+    font-family: 'League Spartan', sans-serif;
+}
+p,h5,a{
+    line-height: 20px;
+    font-size: 20px;
+}
+h1, h4{
+    color: #2299aa;
+    font-weight: 600;
+}
+.navigation{
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+    z-index: 1000;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    color: #2299aa !important;
+    font-size: 2rem !important;
+}
+
+.navbar-light, .navbar-nav, .navbar-link{
+    color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+} 
+
+/* buttons */
+.btn{
+    background-color: #2299aa !important;
+    border-radius: 2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+/* banner */
+.banner, #my-works, #pricing, .testimonials{
+    background-color: #eae7dc;
+}
+
+/* icon */
+.icon{
+    color: #fff;
+    background-color: #2299aa;
+    height: 50px;
+    max-width: 50px;
+    width: 100% !important;
+    margin: auto;
+    padding: 17px;
+    background-size: 20%;
+    border-radius: 28px;
+}
+
+/* hr */
+hr{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+/* my clients */
+#clients .card, #contact .card{
+    background-color: #eae7dc;
+    border: none;
+}
+
+.testimonials img{
+    border-radius: 4rem;
+    height: 120px;
+}
+
+.testimonials span{
+    font-style: italic;
+}
+
+#contact a{
+text-decoration: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #2299aa;
+    font-style: italic;
+}
+
+
